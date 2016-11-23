@@ -8,11 +8,27 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell,model {
+class TableViewCell: UITableViewCell, model {
 
     @IBOutlet weak var urlLbl: UILabel!
     @IBOutlet weak var progressview: UIProgressView!
     
+    var localModel:NSObject?
+    
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    var model: AnyObject? {
+        set{
+            self.localModel = model as! NSObject?;
+            self.updateInfo()
+        }
+        get{
+            return self.localModel
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,6 +36,10 @@ class TableViewCell: UITableViewCell,model {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    
+    func updateInfo() {
+        
     }
     
 }
