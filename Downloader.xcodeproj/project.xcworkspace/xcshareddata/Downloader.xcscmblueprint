@@ -1,13 +1,16 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CAEF8F02420B12DD0D445327514EB66D87CAE499",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CAEF8F02420B12DD0D445327514EB66D87CAE499" : 9223372036854775807,
     "67620B5EFA902936DF04070AF595B76AB0333747" : 9223372036854775807,
     "1FFFBECBEF9A94C409C5D2C4BD43675CC7CEB027" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02444505-9E0F-4465-8754-A96F4DC01ED6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CAEF8F02420B12DD0D445327514EB66D87CAE499" : "downloader\/",
     "67620B5EFA902936DF04070AF595B76AB0333747" : "Downloader\/thirdpart\/Alamofire\/",
     "1FFFBECBEF9A94C409C5D2C4BD43675CC7CEB027" : ""
   },
@@ -24,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:caicai0\/downloader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CAEF8F02420B12DD0D445327514EB66D87CAE499"
     }
   ]
 }
