@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell, model {
+class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var urlLbl: UILabel!
     @IBOutlet weak var progressview: UIProgressView!

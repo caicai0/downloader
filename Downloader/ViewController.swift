@@ -16,6 +16,7 @@ class ViewController: UIViewController{
     override func awakeFromNib() {
         super.awakeFromNib()
         self.datas = NSMutableArray()
+        
     }
     
     override func viewDidLoad() {
@@ -65,10 +66,6 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource {
         })
         return height
     }
-    
-    
-    
-    
     
     func identifierAtIndex(index: IndexPath) -> String {
         return ""
